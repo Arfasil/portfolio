@@ -1,15 +1,15 @@
 {
-  "name": "fasil-portfolio",
+  "name": "portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Arfasil.github.io/portfolio",
+  "homepage": "https://arfasil.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --remote real"
   },
   "dependencies": {
     "react": "^18.3.1",
